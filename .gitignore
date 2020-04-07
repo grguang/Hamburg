@@ -4,12 +4,18 @@
 /node_modules
 /.pnp
 .pnp.js
+/.idea
 
 # testing
 /coverage
 
+# vscode local history
+.history
+
 # production
 /build
+/dist
+/interface
 
 # misc
 .DS_Store
