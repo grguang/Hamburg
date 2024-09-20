@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2526" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2314" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -79,7 +79,7 @@
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-63" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yvN-1eWyw9tFyOShGMj8-59">
           <mxGeometry x="-0.9291" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-12" target="yvN-1eWyw9tFyOShGMj8-3">
@@ -132,47 +132,54 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-26" value="消息替换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1131" y="491" width="120" height="60" as="geometry" />
+          <mxGeometry x="1181" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yvN-1eWyw9tFyOShGMj8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-29" target="yvN-1eWyw9tFyOShGMj8-26">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1237" y="492" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-29" value="消息变更&lt;br&gt;OnRecvMessage&lt;br&gt;Changed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="940" y="301" width="120" height="60" as="geometry" />
+          <mxGeometry x="1046" y="301" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1190" y="491" as="targetPoint" />
+            <mxPoint x="1236" y="492" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-30" value="消息撤回&lt;br&gt;OnNewRecvMessage&lt;br&gt;Revoked" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1070" y="301" width="120" height="60" as="geometry" />
+          <mxGeometry x="1176" y="301" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1190" y="491" as="targetPoint" />
+            <mxPoint x="1236" y="492" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-31" value="&lt;div&gt;私聊已读回执&lt;br&gt;OnRecvC2CRead&lt;br&gt;Receipt&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1200" y="301" width="120" height="60" as="geometry" />
+          <mxGeometry x="1306" y="301" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1190" y="491" as="targetPoint" />
+            <mxPoint x="1236" y="492" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-32" value="群聊已读回执&lt;br&gt;OnRecvGroupRead&lt;br&gt;Receipt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1330" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="1436" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-33" target="yvN-1eWyw9tFyOShGMj8-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-33" value="收到新消息&lt;div&gt;&lt;div&gt;OnRecvNewMessage&lt;/div&gt;&lt;div&gt;OnRecvNewMessages&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1510" y="301" width="130" height="60" as="geometry" />
+          <mxGeometry x="1570" y="300" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yvN-1eWyw9tFyOShGMj8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-39">
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1000" y="300" as="targetPoint" />
+            <mxPoint x="980" y="301" as="targetPoint" />
+            <mxPoint x="1190" y="181" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1190" y="241" />
+              <mxPoint x="981" y="241" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-39" target="yvN-1eWyw9tFyOShGMj8-30">
@@ -204,6 +211,41 @@
         </mxCell>
         <mxCell id="yvN-1eWyw9tFyOShGMj8-52" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="740" y="318" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-89" target="yvN-1eWyw9tFyOShGMj8-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-89" value="断线重连&lt;div&gt;SyncConversationMsg&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-91" target="yvN-1eWyw9tFyOShGMj8-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="925" y="410" />
+              <mxPoint x="645" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-94" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yvN-1eWyw9tFyOShGMj8-93">
+          <mxGeometry x="-0.897" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yvN-1eWyw9tFyOShGMj8-91" target="yvN-1eWyw9tFyOShGMj8-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1100" />
+              <mxPoint x="750" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-96" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yvN-1eWyw9tFyOShGMj8-95">
+          <mxGeometry x="-0.9682" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yvN-1eWyw9tFyOShGMj8-91" value="是否在第一屏" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="925" y="400" width="110" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
